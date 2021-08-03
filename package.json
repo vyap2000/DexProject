@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "npx hardhat test",
-    "node": "npx hardhat node --watch",
+    "dev": "hardhat deploy --network hardhat && hardhat node --network hardhat",
     "frontend": "cd frontend && npm run start"
   },
   "repository": {
