@@ -5,7 +5,7 @@ tasks:
     command: npx hardhat node --watch
   - name: frontend repo
     init: cd frontend && npm install
-    command: cd frontend && npm start
+    command: npm start
 
 ports:
   - port: 8545
