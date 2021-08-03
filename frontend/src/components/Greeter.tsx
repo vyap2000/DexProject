@@ -30,8 +30,8 @@ export const Greeter: React.FC<Props> = () => {
     return (
         <div>
             <p>{message}</p>
-            <input onChange={(e) => setInputGreeting(e.target.value)}></input>
-            <button onClick={(e) => handleSetGreeting(e)}>Set greeting</button>
+            <input className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" onChange={(e) => setInputGreeting(e.target.value)}></input>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={(e) => handleSetGreeting(e)}>Set greeting</button>
         </div>
     )
 }
